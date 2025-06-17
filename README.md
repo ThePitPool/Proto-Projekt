@@ -73,7 +73,7 @@ Die Anzeige erfolgt sofort nach Tastendruck und basiert auf der Verknüpfung von
 ---
 
 ✨ Warum ist das Projekt einzigartig?
-Interdisziplinär: Verbindet Elektronik, visuelle Programmierung, Skripting, I2C-Kommunikation und GUI-Elemente.
+- Interdisziplinär: Verbindet Elektronik, visuelle Programmierung, Skripting, I2C-Kommunikation und GUI-Elemente.
 Ideal für Einsteiger: Es benötigt keine tiefen Kenntnisse in Programmierung oder Elektronik, ist aber dennoch technisch spannend.
 Praktischer Nutzen: Kann als Grundmodul für eine Wetterstation, ein Raumüberwachungsgerät oder ein smartes Display dienen.
 Didaktisch wertvoll: Fördert das Verständnis für GPIOs, Datenverarbeitung, Visualisierung und Automatisierung.
