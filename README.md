@@ -78,3 +78,8 @@ Ideal für Einsteiger: Es benötigt keine tiefen Kenntnisse in Programmierung od
 Praktischer Nutzen: Kann als Grundmodul für eine Wetterstation, ein Raumüberwachungsgerät oder ein smartes Display dienen.
 Didaktisch wertvoll: Fördert das Verständnis für GPIOs, Datenverarbeitung, Visualisierung und Automatisierung.
 Sofort sichtbares Ergebnis: Die Kombination aus Knopf und Display erzeugt direkt Feedback – perfekt für Vorführungen oder Lernzwecke.
+
+---
+
+
+
