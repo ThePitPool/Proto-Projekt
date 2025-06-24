@@ -21,7 +21,7 @@ Die Anzeige erfolgt sofort nach Tastendruck und basiert auf der Verknüpfung von
 - Definition des Projektziels
 - Auswahl der benötigten Hardware und Software
 - Grobe Struktur und Zeitplan festlegen  
-**🔑 Wichtigkeit:** Grundlegend für einen effizienten und strukturierten Ablauf.
+** Wichtigkeit:** Grundlegend für einen effizienten und strukturierten Ablauf.
 
 ---
 
@@ -30,13 +30,13 @@ Die Anzeige erfolgt sofort nach Tastendruck und basiert auf der Verknüpfung von
 - Taster korrekt an GPIO anschließen
 - Optional: Temperatur-Sensor (z. B. DHT22) anschließen
 - I2C im Raspberry Pi aktivieren (`raspi-config`)  
-**🔑 Wichtigkeit:** Fehlerfreie Verkabelung ist Voraussetzung für ein funktionierendes System.
+** Wichtigkeit:** Fehlerfreie Verkabelung ist Voraussetzung für ein funktionierendes System.
 
 ---
 
 ### Phase 3: Software-Einrichtung
 - Node-RED auf dem Pi installieren  
-  👉 [Node-RED auf Raspberry Pi installieren – YouTube-Tutorial](https://www.youtube.com/watch?v=8BjZpWn5GIE)
+  [Node-RED auf Raspberry Pi installieren – YouTube-Tutorial](https://www.youtube.com/watch?v=8BjZpWn5GIE)
 - Python3 + LCD-Bibliotheken installieren:
   ```bash
   sudo apt-get install python3-smbus i2c-tools
@@ -50,7 +50,7 @@ Die Anzeige erfolgt sofort nach Tastendruck und basiert auf der Verknüpfung von
 
 ---
 
-💡 Lösungsansätze
+Lösungsansätze
 - Visuelle Programmierung: Dank Node-RED ist die Steuerlogik leicht verständlich, wartbar und flexibel.
 - Modularer Aufbau: Jede Komponente (LCD, Button, Temperatur) funktioniert eigenständig.
 - Kombination aus Python und Node-RED: So wird die einfache Bedienbarkeit von Node-RED mit der Hardware-Nähe von - - Python vereint.
@@ -60,7 +60,7 @@ Die Anzeige erfolgt sofort nach Tastendruck und basiert auf der Verknüpfung von
 ---
 
 ### 🛠 Verwendete Technologien
-💻 Hardware
+Hardware
 - Raspberry Pi (z. B. 3B oder 4)
 - 16x2 LCD-Display mit I2C-Modul
 - GPIO-Taster
