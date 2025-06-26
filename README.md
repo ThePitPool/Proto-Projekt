@@ -1,4 +1,7 @@
 # Proto-Projekt
+
+[Zum Planner](https://github.com/users/ThePitPool/projects/2)
+
 # 📟 LCD-Anzeige mit Node-RED auf dem Raspberry Pi
 
 Ein Projekt zur Anzeige der aktuellen Temperatur und des Datums auf einem LCD-Display per Knopfdruck – gesteuert über Node-RED auf einem Raspberry Pi.
