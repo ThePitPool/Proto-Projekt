@@ -4,17 +4,17 @@
 
 #LCD-Anzeige mit Node-RED auf dem Raspberry Pi
 
-Ein Projekt zur Anzeige der aktuellen Temperatur und des Datums auf einem LCD-Display per Knopfdruck – gesteuert über Node-RED auf einem Raspberry Pi.
+Projekt zur Anzeige der aktuellen Temperatur auf einem LCD-Display per Knopfdruck, gesteuert über Node-RED auf einem Raspberry Pi.
 
 ---
 
 ##Ziel des Projekts
 
 Ziel ist es, mit einem Taster ein 16x2-LCD-Display so anzusteuern, dass:
-- **oben** die aktuelle Temperatur angezeigt wird,
-- **unten** das Tagesdatum erscheint.
+- **oben** Temperatur steht,
+- **unten** Die Temperatur in Grad ausgeschrieben.
 
-Die Anzeige erfolgt sofort nach Tastendruck und basiert auf der Verknüpfung von Hardware (GPIOs, I2C-LCD) und Software (Node-RED & Python).
+Die Anzeige erfolgt nach 1-2 Sekunde nach Tastendruck und basiert auf der Verknüpfung von Hardware (GPIOs, I2C-LCD) und Software (Node-RED & Python).
 
 ---
 
@@ -32,13 +32,13 @@ Die Anzeige erfolgt sofort nach Tastendruck und basiert auf der Verknüpfung von
 - LCD-Display per I2C anschließen
 - Taster korrekt an GPIO anschließen
 - Optional: Temperatur-Sensor (z. B. DHT22) anschließen
-- I2C im Raspberry Pi aktivieren (`raspi-config`)  
+- I2C im Raspberry Pi aktivieren  
 ** Wichtigkeit:** Fehlerfreie Verkabelung ist Voraussetzung für ein funktionierendes System.
 
 ---
 
 ### Phase 3: Software-Einrichtung
-- Node-RED auf dem Pi installieren  
+- Node-RED auf dem Raspberry Pi installieren  
   [Node-RED auf Raspberry Pi installieren – YouTube-Tutorial](https://www.youtube.com/watch?v=8BjZpWn5GIE)
 - Python3 + LCD-Bibliotheken installieren:
   ```bash
@@ -46,8 +46,7 @@ Die Anzeige erfolgt sofort nach Tastendruck und basiert auf der Verknüpfung von
   pip3 install RPLCD
 ### Phase 4: Node-RED-Flow erstellen
 - GPIO-Eingang für Taster konfigurieren
-- Temperatur über Sensor oder API abrufen
-- Datum über date-Befehl oder Node-RED holen
+- Temperatur über (Sensor) oder API abrufen
 - LCD mit Python-Skript ansteuern (z. B. über exec-Node)
 - Flow testen und debuggen
 
@@ -71,16 +70,16 @@ Hardware
 🔧 Software & Tools
 - Node-RED (Flow-Programmierung)
 - Python 3 (für LCD-Ansteuerung)
-- Bash (Datum auslesen mit date)
+
 
 ---
 
-✨ Warum ist das Projekt einzigartig?
-- Interdisziplinär: Verbindet Elektronik, visuelle Programmierung, Skripting, I2C-Kommunikation und GUI-Elemente.
+Warum ist das Projekt einzigartig?
+Verbindet Elektronik, visuelle Programmierung, Skripting, I2C-Kommunikation und GUI-Elemente.
 Ideal für Einsteiger: Es benötigt keine tiefen Kenntnisse in Programmierung oder Elektronik, ist aber dennoch technisch spannend.
 Praktischer Nutzen: Kann als Grundmodul für eine Wetterstation, ein Raumüberwachungsgerät oder ein smartes Display dienen.
-Didaktisch wertvoll: Fördert das Verständnis für GPIOs, Datenverarbeitung, Visualisierung und Automatisierung.
-Sofort sichtbares Ergebnis: Die Kombination aus Knopf und Display erzeugt direkt Feedback – perfekt für Vorführungen oder Lernzwecke.
+Fördert das Verständnis für GPIOs, Datenverarbeitung, Visualisierung und Automatisierung.
+Die Kombination aus Knopf und Display erzeugt direkt Feedback, perfekt für Vorführungen oder Lernzwecke.
 
 ---
 
